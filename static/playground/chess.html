@@ -1,0 +1,57 @@
+<!doctype html>
+<head>
+    <title>chess kite</title>
+</head>
+<body>
+<div id="chessview"></div>
+<link rel="stylesheet" href="../theme/style.css">
+<script>
+var log, warn, error;
+log = console.log.bind(console);
+warn = console.warn.bind(console);
+error = console.error.bind(console);
+</script>
+<script src="../vendor/sockjs-0.3-patched.js"></script>
+<script src="../vendor/uuid-tiny.js"></script>
+<script src="../vendor/bluebird.js"></script>
+<script src="../vendor/traceur-runtime.js"></script>
+<script src="../browser/kite-promises-bundle.js"></script>
+
+<script src="../browser/chessview.js"></script>
+<script src="../browser/arbiter.js"></script>
+<script>
+/* View */
+var mercury = require('mercury');
+var chess = require('chessview');
+var FEN = chess.FEN;
+var playable = chess.ui.playable;
+
+var state = playable(FEN.standardPosition);
+
+mercury.app(
+  document.getElementById('chessview'),
+  state,
+  playable.board
+);
+
+var h = mercury.h;
+
+var rotated = mercury.input();
+rotated(function (value) {
+  state.rotated.set(value.rotated);
+});
+</script>
+<script>
+/* Arbiter */
+var Arbiter = require('chesskite');
+var arbiter = new Arbiter({
+  url: 'http://0.0.0.0:5647/arbiter',
+  transportClass: SockJS
+});
+
+arbiter.seek({ nick: prompt('enter a nick') }).then(function (game) {
+  state.position(game.position);
+});
+
+</script>
+</body>
