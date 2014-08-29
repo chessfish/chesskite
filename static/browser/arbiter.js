@@ -6922,17 +6922,18 @@ function Arbiter(options) {
 
 Arbiter.prototype.seek = function (options) {
 	var arbiter = this;
-	return arbiter.tell('seek', [assign({}, this.seekDefaults, options)]).
+	return (
+		arbiter.
+		tell('seek', [assign({}, arbiter.seekDefaults, options)]).
 		then(function (pairing) {
-			return arbiter.tell('join', [pairing]).
-				then(function (game) {
-					return new Game(arbiter, null, {
-						gameId: pairing.gameId,
-					});
+			return arbiter.join(pairing).then(function () {
+				return new Game(arbiter, null, {
+					gameId: pairing.gameId,
 				});
-		});
+			});
+		})
+	);
 };
-
 
 [
 	'join',

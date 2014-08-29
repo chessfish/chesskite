@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-    <title>chess kite</title>
+		<title>chess kite</title>
 </head>
 <body>
 <div id="chessview"></div>
@@ -29,28 +29,57 @@ var playable = chess.ui.playable;
 var state = playable(FEN.standardPosition);
 
 mercury.app(
-  document.getElementById('chessview'),
-  state,
-  playable.board
+	document.getElementById('chessview'),
+	state,
+	playable.board
 );
 
 var h = mercury.h;
 
 var rotated = mercury.input();
 rotated(function (value) {
-  state.rotated.set(value.rotated);
+	state.rotated.set(value.rotated);
 });
+
+// example of hacking together an ad-hoc component
+mercury.app(
+	document.getElementById('fenCode'),
+	state,
+	function (state) {
+		return h('div', [
+			h('div', h('input.fenCode', {
+				'type': 'text',
+				'readonly': true,
+				'value': FEN.stringify(state.position)
+			})),
+			h('div', h('label', {
+				'for': 'rotated',
+			}, [
+				h('input', {
+					'type': 'checkbox',
+					'name': 'rotated',
+					'id': 'rotated',
+					'checked': state.rotated,
+					'ev-change': mercury.valueEvent(rotated),
+				}),
+				"Rotate board"
+			]))
+		]);
+	}
+);
+
+
 </script>
 <script>
 /* Arbiter */
 var Arbiter = require('chesskite');
 var arbiter = new Arbiter({
-  url: 'http://0.0.0.0:5647/arbiter',
-  transportClass: SockJS
+	url: 'http://0.0.0.0:5647/arbiter',
+	transportClass: SockJS
 });
 
 arbiter.seek({ nick: prompt('enter a nick') }).then(function (game) {
-  state.position(game.position);
+	state.position.set(game.position);
 });
 
 </script>
