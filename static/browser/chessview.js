@@ -1,1 +1,0 @@
-../../node_modules/chessview/browser/bundle.js

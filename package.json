@@ -2,7 +2,7 @@
   "name": "chesskite",
   "version": "0.0.0",
   "description": "An arbiter service for PvP chess games",
-  "main": "index.js",
+  "main": "kite.js",
   "scripts": {
     "test": "node test/all.js"
   },
@@ -26,7 +26,8 @@
   "homepage": "https://github.com/humanchimp/chesskite",
   "dependencies": {
     "bluebird": "^2.3.2",
-    "chessview": "^0.9.5",
+    "chesslib": "^0.9.10",
+    "chessview": "^0.9.7",
     "ecstatic": "^0.5.4",
     "kite.js": "^0.3.7",
     "lodash.assign": "^2.4.1",

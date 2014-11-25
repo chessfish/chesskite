@@ -6444,9 +6444,9 @@ module.exports = baseCreate;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"lodash._isnative":50,"lodash.isobject":52,"lodash.noop":51}],50:[function(require,module,exports){
 module.exports=require(44)
-},{}],51:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":44}],51:[function(require,module,exports){
 module.exports=require(45)
-},{}],52:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":45}],52:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -6569,13 +6569,13 @@ module.exports = baseCreateWrapper;
 
 },{"lodash._basecreate":54,"lodash._setbinddata":43,"lodash._slice":59,"lodash.isobject":57}],54:[function(require,module,exports){
 module.exports=require(49)
-},{"lodash._isnative":55,"lodash.isobject":57,"lodash.noop":56}],55:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash._basecreate/index.js":49,"lodash._isnative":55,"lodash.isobject":57,"lodash.noop":56}],55:[function(require,module,exports){
 module.exports=require(44)
-},{}],56:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":44}],56:[function(require,module,exports){
 module.exports=require(45)
-},{}],57:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":45}],57:[function(require,module,exports){
 module.exports=require(52)
-},{"lodash._objecttypes":63}],58:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash.isobject/index.js":52,"lodash._objecttypes":63}],58:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -6720,7 +6720,7 @@ module.exports = support;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"lodash._isnative":62}],62:[function(require,module,exports){
 module.exports=require(44)
-},{}],63:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":44}],63:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -6782,7 +6782,7 @@ module.exports = keys;
 
 },{"lodash._isnative":65,"lodash._shimkeys":66,"lodash.isobject":67}],65:[function(require,module,exports){
 module.exports=require(44)
-},{}],66:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":44}],66:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -6824,7 +6824,7 @@ module.exports = shimKeys;
 
 },{"lodash._objecttypes":63}],67:[function(require,module,exports){
 module.exports=require(52)
-},{"lodash._objecttypes":63}],68:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash.isobject/index.js":52,"lodash._objecttypes":63}],68:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -6864,47 +6864,47 @@ module.exports = wrap;
 
 },{"lodash._createwrapper":69}],69:[function(require,module,exports){
 module.exports=require(47)
-},{"lodash._basebind":70,"lodash._basecreatewrapper":79,"lodash._slice":88,"lodash.isfunction":89}],70:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/index.js":47,"lodash._basebind":70,"lodash._basecreatewrapper":79,"lodash._slice":88,"lodash.isfunction":89}],70:[function(require,module,exports){
 module.exports=require(48)
-},{"lodash._basecreate":71,"lodash._setbinddata":74,"lodash._slice":88,"lodash.isobject":77}],71:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/index.js":48,"lodash._basecreate":71,"lodash._setbinddata":74,"lodash._slice":88,"lodash.isobject":77}],71:[function(require,module,exports){
 module.exports=require(49)
-},{"lodash._isnative":72,"lodash.isobject":77,"lodash.noop":73}],72:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash._basecreate/index.js":49,"lodash._isnative":72,"lodash.isobject":77,"lodash.noop":73}],72:[function(require,module,exports){
 module.exports=require(44)
-},{}],73:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":44}],73:[function(require,module,exports){
 module.exports=require(45)
-},{}],74:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":45}],74:[function(require,module,exports){
 module.exports=require(43)
-},{"lodash._isnative":75,"lodash.noop":76}],75:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/index.js":43,"lodash._isnative":75,"lodash.noop":76}],75:[function(require,module,exports){
 module.exports=require(44)
-},{}],76:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":44}],76:[function(require,module,exports){
 module.exports=require(45)
-},{}],77:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":45}],77:[function(require,module,exports){
 module.exports=require(52)
-},{"lodash._objecttypes":78}],78:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash.isobject/index.js":52,"lodash._objecttypes":78}],78:[function(require,module,exports){
 module.exports=require(63)
-},{}],79:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._objecttypes/index.js":63}],79:[function(require,module,exports){
 module.exports=require(53)
-},{"lodash._basecreate":80,"lodash._setbinddata":83,"lodash._slice":88,"lodash.isobject":86}],80:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basecreatewrapper/index.js":53,"lodash._basecreate":80,"lodash._setbinddata":83,"lodash._slice":88,"lodash.isobject":86}],80:[function(require,module,exports){
 module.exports=require(49)
-},{"lodash._isnative":81,"lodash.isobject":86,"lodash.noop":82}],81:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash._basecreate/index.js":49,"lodash._isnative":81,"lodash.isobject":86,"lodash.noop":82}],81:[function(require,module,exports){
 module.exports=require(44)
-},{}],82:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":44}],82:[function(require,module,exports){
 module.exports=require(45)
-},{}],83:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":45}],83:[function(require,module,exports){
 module.exports=require(43)
-},{"lodash._isnative":84,"lodash.noop":85}],84:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/index.js":43,"lodash._isnative":84,"lodash.noop":85}],84:[function(require,module,exports){
 module.exports=require(44)
-},{}],85:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":44}],85:[function(require,module,exports){
 module.exports=require(45)
-},{}],86:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":45}],86:[function(require,module,exports){
 module.exports=require(52)
-},{"lodash._objecttypes":87}],87:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash.isobject/index.js":52,"lodash._objecttypes":87}],87:[function(require,module,exports){
 module.exports=require(63)
-},{}],88:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._objecttypes/index.js":63}],88:[function(require,module,exports){
 module.exports=require(59)
-},{}],89:[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._slice/index.js":59}],89:[function(require,module,exports){
 module.exports=require(58)
-},{}],"chesskite":[function(require,module,exports){
+},{"/Users/thorn/Desktop/chesskite/node_modules/lodash.assign/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash.isfunction/index.js":58}],"chesskite":[function(require,module,exports){
 var inherits = require('util').inherits;
 var assign = require('lodash.assign');
 var Kite = require('kite');
